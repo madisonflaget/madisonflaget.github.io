@@ -2,7 +2,7 @@
   <html>
 
       <head>
-        <title> CutenessStash.net </title>
+        <title id="title"> CutenessStash.net </title>
         <meta name="description"
         content="This is Madison Flaget's stash of cute puppy images and videos">
         <meta name="keywords" content="cute, puppy, puppies" />
@@ -15,12 +15,41 @@
       <body>
           <div id="header">
               <h1> CutenessStash.net Home</h1>
-              <h2> To bring a smile to your day </h2>
+              <h2> Contact Us </h2>
           </div> <!-- end page header -->
 
           <div id="content">
 
-          </div> <!-- end page body -->
+              <h3> Want to find your own puppy? </h3>
+                  <p> Adopt from a local shelter today </p>
+                  <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!
+                  1m3!1d174514.47953587907!2d-114.1355655231196!3d46.88720447920
+                  9245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535dd
+                  a88719fe53%3A0x50ffd3b1a59390ff!2sHumane+Society+of+Western+Montana!
+                  5e0!3m2!1sen!2sus!4v1474346743604" width="600" height="450"
+                  frameborder="0" style="border:0" allowfullscreen></iframe>
 
+              <h3 id="form_header"> Want to recieve news and updates? Please fill out this form</h3>
+              <form id="contact_form" action="http://www.example.com/subscribe.php" method="get">
+                    <label for="username">Username</label>
+                  <input id="username" type="text" name="username" maxlength="6"/>
+                  <br />
+                    <label for="email">Email</label>
+                  <input id="email" type="email" name="email"/>
+                  <br />
+                    <label for="submit"></label>
+                  <input id="submit" type="submit" value="submit"/>
+                  <!-- I'm not sure if this breaks syntax rules, but I placed the labels
+                  for the form inputs BEFORE the input tags so that on-screen text would
+                  appear before the text box. I wanted to avoid the clutter of a bunch
+                  of p tags -->
+              </form>
+        </div> <!-- end page content -->
+
+          <div id="footer">
+            <h4 id="navlink_home"> <a href="index.html">Home</a> </h4>
+            <h4 id="navlink_contact"> <a href="contact.html">Contact Us</a> </h4>
+            <h4 id="navlink_questions"> <a href="questions.html">Questionnaire</a> </h4>
+          </div> <!-- end footer -->
       </body>
   </html>

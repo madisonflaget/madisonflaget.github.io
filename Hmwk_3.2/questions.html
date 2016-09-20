@@ -15,12 +15,57 @@
       <body>
           <div id="header">
               <h1> CutenessStash.net Home</h1>
-              <h2> To bring a smile to your day </h2>
+              <h2> Questionnaire</h2>
           </div> <!-- end page header -->
 
           <div id="content">
+            <h3 id="form_header">Fill out this short questionnaire so we can learn
+              more about our fans <h3>
+            <form action="http://www.example.com/profile.php">
+                <p>Do you own a dog?
+                      <br />
+                <input id="dog_yes" type="radio" name="dog" value="yes" />
+                  <label for="dog_yes"> Yes </label>
+                <input id="dog_no" type="radio" name="dog" value="no" />
+                  <label for="dog_no"> No </label>
+                </p>
+            </form>
 
-          </div> <!-- end page body -->
+            <form action="http://www.example.com/profile.php">
+			          <p>What size do you have?
+  				              <br />
+                <input id="size_teacup" type="checkbox" name="size" value="teacup" />
+                  <label for="size_teacup">Teacup</label>
+                <input id="size_small" type="checkbox" name="size" value="small" />
+                  <label for="size_small">Small</label>
+                <input id="size_medium" type="checkbox" name="size" value="medium" />
+                  <label for="size_medium">Medium</label>
+                <input id="size_large" type="checkbox" name="size" value="large" />
+                  <label for="size_large">Large</label>
+                <input id="size_extra_large" type="checkbox" name="size" value="extra large" />
+                  <label for="size_extra_large">Extra Large</label>
+                  </p>
+            </form>
+            <form id="question_form" action="http://www.example.com/profile.php">
+                <p> Is he a GOOD BOY??? :D
+                  <select id="good_boy" name="good_boy">
+                        <option id="of_course" value="of_course">Of course</option>
+                          <label for="of_course">Of Course</label>
+                        <option id="sometimes" value="sometimes">Sometimes</option>
+                          <label for="sometimes">Sometimes</label>
+                        <option id="???" value="???">???</option>
+                          <label for="???">???</label>
+                        <option id="ruff_ruff" value="ruff_ruff">Ruff Ruff</option>
+                          <label for="ruff_ruff">Ruff Ruff</label>
+                      </select>
+                </p>
+            </form>
+          </div> <!-- end page content -->
 
+          <div id="footer">
+            <h4 id="navlink_home"> <a href="index.html">Home</a> </h4>
+            <h4 id="navlink_contact"> <a href="contact.html">Contact Us</a> </h4>
+            <h4 id="navlink_questions"> <a href="questions.html">Questionnaire</a> </h4>
+          </div> <!-- end footer -->
       </body>
   </html>

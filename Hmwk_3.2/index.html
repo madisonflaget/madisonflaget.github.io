@@ -2,7 +2,7 @@
   <html>
 
       <head>
-          <title> CutenessStash.net </title>
+          <title id="title"> CutenessStash.net </title>
           <meta name="description"
           content="This is Madison Flaget's stash of cute puppy images and videos">
           <meta name="keywords" content="cute, puppy, puppies" />
@@ -22,18 +22,69 @@
               <p> Are you having a bad day? Well her are a few images of cute
                 puppies to make things better. Because these are seriously way
                 too cute. </p>
-                <img src="images/puppy1.jpg" alt="chocolate lab puppy" width="600" height="398" />
-                <img src="images/puppy2.jpg" alt="husky puppy" width="600" height="298" />
-                <img src="images/puppy3.jpg" alt="yellow lab puppy" width="600" height="398" />
+                <img id="puppy1_image" src="images/puppy1.jpg" alt="chocolate lab puppy" width="600" height="398" />
+                <img id="puppy2_image" src="images/puppy2.jpg" alt="husky puppy" width="600" height="298" />
+                <img id="puppy3_image" src="images/puppy3.jpg" alt="yellow lab puppy" width="600" height="398" />
 
                 <ul> Ready for more cuteness??? See these videos:
-                  <li> <a href="hosted_video.html">Cute Bark</a> </li>
-                  <li> <a href="embedded_video.html">Wabbit Season</a> </li>
-                  <li> <a href=
+                  <li id="hosted_video_link"> <a href="hosted_video.html">Cute Bark</a> </li>
+                  <li id="embedded_video_link"> <a href="embedded_video.html">Wabbit Season</a> </li>
+                  <li id="external_link"> <a href=
                     "http://iheartdogs.com/10-dog-breeds-that-have-the-cutest-puppies/">
                     10 Dog Breeds That Have The CUTEST Puppies</a> </li>
                 </ul>
-          </div> <!-- end page body -->
+
+                <h3>How Big Will Your Puppy Grow to Be?</h3>
+
+                <table id="growth_table">
+                    <tr>
+                          <th></th>
+                          <th scope="col">Teacup</th>
+                          <th scope="col">Small</th>
+                          <th scope="col">Medium</th>
+                          <th scope="col">Large</th>
+                          <th scope="col">Extra Large</th>
+                    </tr>
+                    <tr>
+                          <th scope="row">1 Week</th>
+                          <td>5-11 oz</td>
+                          <td>1.2-2.2 lbs</td>
+                          <td>1.5-2.5 lbs</td>
+                          <td>2.5-3.2 lbs</td>
+                          <td>3-3.9 lbs</td>
+                    </tr>
+                    <tr>
+                          <th scope="row">12 Week</th>
+                          <td>1.1-3.3 lbs</td>
+                          <td>6-9 lbs</td>
+                          <td>9-15 lbs</td>
+                          <td>25-29 lbs</td>
+                          <td>31-40 lbs</td>
+                    </tr>
+                    <tr>
+                          <th scope="row">26 Week</th>
+                          <td>2-5 lbs</td>
+                          <td>16-18 lbs</td>
+                          <td>21-36 lbs</td>
+                          <td>60-67 lbs</td>
+                          <td>70-91 lbs</td>
+                    </tr>
+                    <tr>
+                          <th scope="row">18 Months</th>
+                          <td>2.5-7 lbs</td>
+                          <td>17-23 lbs</td>
+                          <td>27-46 lbs</td>
+                          <td>77-87 lbs</td>
+                          <td>91-118 lbs</td>
+                    </tr>
+                </table>
+          </div> <!-- end page content -->
+
+          <div id="footer">
+            <h4 id="navlink_home"> <a href="index.html">Home</a> </h4>
+            <h4 id="navlink_contact"> <a href="contact.html">Contact Us</a> </h4>
+            <h4 id="navlink_questions"> <a href="questions.html">Questionnaire</a> </h4>
+          </div> <!-- end footer -->
 
       </body>
   </html>
