@@ -1,0 +1,71 @@
+body {
+				font-family: "Minion Pro", "Times New Roman", serif;
+				color: #2F1A34;
+				opacity: 0.9;
+				padding: 20px;
+}
+
+.header {
+          color: rgba(26, 59, 173, 0.99);
+					background-color: hsla(64, 33%, 92%, 0.99);
+					padding: inherit;
+					text-align: center;
+}
+
+h1, h2, h3 {
+				font-family: monospace;
+}
+
+h1 {
+				font-family: 'FirecatMedium', Arial, sans-serif;
+				font-size: 300%;
+				font-weight: bold;
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
+				text-shadow: 2px 2px 5px hsla(252, 83%, 2%, .5);
+}
+
+h2 {
+				font-size: 32px;
+				font-style: italic;
+				color: DarkSlateBlue;
+				word-spacing: .1em;
+}
+
+h3 {
+				font-size: 2em;
+				color: inherit;
+}
+
+#kitten1_image, #kitten2_image, #kitten3_image {
+				padding: 5px;
+				background-color: rgba(26, 59, 173, 0.7);
+}
+
+p {
+				line-height: 1.4em
+				text-align: justify;
+				text-indent: 20px;
+}
+
+a:link {
+				color: cyan;
+				text-decoration: none;
+}
+
+a:visited {
+				color: rgb(53, 26, 144);
+}
+
+a:hover {
+				color: rgb(43, 255, 0);
+				text-decoration: underline;
+}
+
+a:active {
+				color: rgb(217, 11, 235);
+}
+
+p:first-letter {
+				font-size: 200%
+}
