@@ -39,7 +39,8 @@ h1 {
 }
 
 h2 {
-				font-size: 32px;
+        font-family: "Lora", sans-serif;
+        font-size: 32px;
 				font-style: italic;
 				color: DarkSlateBlue;
 				word-spacing: .1em;
